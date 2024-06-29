@@ -25,7 +25,8 @@ jobs:
         port: 22
         script: |
           cd ~/apps/API-GithubActions/
-          git pull origin main
+          pwd
+          git pull
           git status
           npm install --only=prod
           pm2 restart node1
