@@ -28,5 +28,5 @@ jobs:
           pwd
           git pull
           git status
-          npm install --only=prod
-          pm2 restart node1
+          npm i
+          pm2 restart server
